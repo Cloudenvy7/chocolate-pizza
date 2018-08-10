@@ -1,0 +1,48 @@
+
+div {
+  width: 100%;
+  height: 200px;
+}
+
+.headContent {
+  background-color: yellowgreen;
+  width: 100%;
+  height: 100px;
+  }
+
+.spacer{
+  background-color: greenyellow;
+  width: 100%;
+  height: 25px;  
+}
+
+.titleContent {
+  background-color: blue;
+  width: 100%;
+  height: 100px;  
+}
+
+.pictureContent {
+  background-color: maroon;
+  width: 100%;
+  height: 400px;  
+
+}
+
+.textContent {
+  background-color: orangered;
+  width: 100%;
+  height: 250px;  
+}
+
+.listContent {
+  background-color:plum;
+  width: 100%;
+  height: 250px;  
+}
+
+.footerContent {
+  background-color: yellow;
+}
+
+
