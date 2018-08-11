@@ -132,13 +132,87 @@
 }
 
 .listContent {
-  background-color:plum;
+  vertical-align: top;
   width: 100%;
   height: 250px;  
+  background-image: url('../img/list-bg.png');
 }
 
 .footerContent {
-  background-color: yellow;
+  background-color: #FFFFFF;
+  margin-top: 30px;
 }
 
+.footerContent h3{
+  font-family: 'Abhaya Libre', serif, sans-serif;
+  font-size: 24px;
+}
 
+.footerContent p{
+  /* display: inline-block; */
+  font-family: 'Abhaya Libre', serif, sans-serif;
+  font-size: 12px;
+  margin-bottom: 35px;
+}
+
+.list-l {
+  margin-top: 30px;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+.list-r {
+  margin-top: 30px;
+  vertical-align: top;
+  margin-left: 200px;
+  display: inline-block;
+}
+
+.list-element {
+  margin: 5px;
+  font-family: 'Jua', sans-serif;
+  color: #716041;
+}
+
+.check-box {
+  margin-top: 5px;
+  margin-right: 4px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #716041;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.foot-note {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.ruler {
+  height: 1px;
+  width: 40%;
+  background-image: linear-gradient(to right, #dbc79f, #2b0d00, #dbc79f);
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.foot-title {
+  margin-left: 15px;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+.share-recipe-button{
+  float: right;
+  height: 40px;
+  width: 150px;
+  background-color: #BC7058;
+  box-sizing: border-box;
+  padding-top: 12px;
+  text-align: center;
+  color: rgb(207, 213, 221);
+}
+
+.logo-inline{
+  display: inline-block;
+}
